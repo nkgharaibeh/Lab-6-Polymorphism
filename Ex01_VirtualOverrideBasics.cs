@@ -52,6 +52,12 @@ namespace Ex01_VirtualOverrideBasics
 
 /*
 SLIDE / LAB MESSAGE:
+- This is "Run-time Polymorphism" / "Dynamic polymorphism" / "Subtype polymorphism".
 - Same method name (MakeSound), different behaviors in Dog and Cat.
+            or 
+- Same method signature (MakeSound), different implementations in subclasses.
 - This is core OOP polymorphism: "many forms" of the same operation.
+- Requires: virtual in base + override in derived.
+
 */
+ 
