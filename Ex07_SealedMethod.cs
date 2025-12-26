@@ -49,3 +49,8 @@ LAB MESSAGE:
 - Sealed methods are used when the framework designer wants to allow
   ONE override level, but prevent further changes (for safety or design reasons).
 */
+/*
+SLIDE POINTS:
+- 'sealed override' is used when the designer allows one level of overriding,
+  but wants to protect the method from being changed again in deeper subclasses.
+*/
