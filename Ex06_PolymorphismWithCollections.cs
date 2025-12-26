@@ -31,6 +31,7 @@ namespace Ex06_PolymorphismWithCollections
         static void Main(string[] args)
         {
             // Heterogeneous collection: list of base-class references.
+           // A single List<Animal> holding different concrete shapes.
             List<Animal> animals = new List<Animal>
             {
                 new Dog(),
