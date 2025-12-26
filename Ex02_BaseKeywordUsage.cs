@@ -41,4 +41,10 @@ namespace Ex02_BaseKeywordUsage
 LAB EXPLANATION:
 - base.Eat() lets you reuse the parent implementation and then add more behavior.
 - This is common in real systems: child class extends, not completely replaces, parent logic.
+
+SLIDE POINTS:
+- 'base' keyword is used inside a derived class to call:
+    - base class methods
+    - base class constructors
+- Typical pattern: "extend, don't replace" parent behavior.
 */
