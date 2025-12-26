@@ -56,3 +56,9 @@ LAB IDEA:
 - Polymorphism + collections = powerful pattern:
   process different object types in one loop using the same method call.
 */
+/*
+SLIDE POINTS:
+- Very important real-life use of polymorphism:
+  we can process many types through one interface in a loop.
+- Client code depends on the abstraction (Shape) not on concrete classes.
+*/
