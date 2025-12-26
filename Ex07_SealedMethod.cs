@@ -1,5 +1,5 @@
 using System;
-
+// (Prevent further overriding)
 namespace Ex07_SealedMethod
 {
     class BaseClass
