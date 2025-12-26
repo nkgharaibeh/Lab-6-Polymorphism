@@ -1,5 +1,5 @@
 using System;
-
+// (Animal / Dog / Cat – basic runtime polymorphism)
 namespace Ex01_VirtualOverrideBasics
 {
     // Base class
