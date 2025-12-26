@@ -1,0 +1,51 @@
+using System;
+
+namespace Ex01_MethodOverloading
+{
+    class Calculator
+    {
+        // This is COMPILE-TIME polymorphism (Static polymorphism).
+        // Same method name "Add" but different parameter lists (signatures).
+
+        public int Add(int a, int b)
+        {
+            Console.WriteLine("Add(int, int) called");
+            return a + b;
+        }
+
+        public double Add(double a, double b)
+        {
+            Console.WriteLine("Add(double, double) called");
+            return a + b;
+        }
+
+        public int Add(int a, int b, int c)
+        {
+            Console.WriteLine("Add(int, int, int) called");
+            return a + b + c;
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            Calculator calc = new Calculator();
+
+            // The compiler decides which version to call
+            // based on argument types and count.
+            Console.WriteLine(calc.Add(2, 3));
+            Console.WriteLine(calc.Add(2.5, 3.7));
+            Console.WriteLine(calc.Add(1, 2, 3));
+
+            Console.ReadKey();
+        }
+    }
+}
+
+/*
+SLIDE POINTS:
+- This is "Function Overloading" / "Method Overloading".
+- A form of polymorphism resolved at compile time (no virtual/override).
+- Same name, different signatures.
+*/
